@@ -628,6 +628,9 @@ button:hover {
 .form-field {
   margin-bottom: 10px;
 }
+.form-field:last-child {
+  margin-bottom: 20px;
+}
 .form-field .form-label {
   margin-bottom: 4px;
   display: inline-block;
@@ -672,6 +675,10 @@ button:hover {
 }
 .input-wrap {
   position: relative;
+}
+
+.form-agreement-link {
+  color: var(--accent-color);
 }
 /* -----------------------------Form-button----------------------- */
 .form-button {
